@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KhatiExtendedADONugetImplementation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fca943a8bc215bc2ccb45e69d41f85670894cac5")]
 [assembly: System.Reflection.AssemblyProductAttribute("KhatiExtendedADONugetImplementation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KhatiExtendedADONugetImplementation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
