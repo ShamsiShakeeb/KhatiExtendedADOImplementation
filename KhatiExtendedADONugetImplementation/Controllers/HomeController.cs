@@ -15,9 +15,10 @@ namespace KhatiExtendedADONugetImplementation.Controllers
             _personContext = personContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var insert = _personContext.SqlWrite(string.Format("Insert into Student(Name) values('{0}')","John Cena"));
+            var insert = await _personContext.SqlWriteAsync("Insert into Student(Name) values (@Name)", 
+                new Dictionary<string, object>() { { "@Name", "Washiq Anwar Shamsi" }, });
 
             List<Student> students = new List<Student>() 
             { 
@@ -25,17 +26,21 @@ namespace KhatiExtendedADONugetImplementation.Controllers
                 new Student() { Name = "Brock Lesner"}
             };
 
-            _personContext.SqlBulkUpload(students,"Student");
+            await _personContext.SqlBulkUploadAsync(students,"Student");
 
-            var readAll = _personContext.SqlRead<List<Student>>("select * from Student");
+            var readAll = await _personContext.SqlReadAsync<List<Student>>("select * from Student");
 
-            var firstOrDefault = _personContext.SqlReadScalerModel<Student>("select Top 1 * from Student");
+            var readFilter = await _personContext.SqlReadAsync<List<Student>>("select * from Student where Name = @Name",
+                new Dictionary<string, object>() { { "@Name", "Brock Lesner" }, });
 
-            var readScalerValue = _personContext.SqlReadScalerValue<int>("select count(*) from Student"); 
+            var firstOrDefault = await _personContext.SqlReadScalerModelAsync<Student>("select Top 1 * from Student");
+
+            var readScalerValue = await _personContext.SqlReadScalerValueAsync<int>("select count(*) from Student"); 
 
             return Ok(new 
             {
                 readAll=readAll.Data,
+                readFilter = readFilter.Data,
                 firstOrDefault=firstOrDefault.Data,
                 readScalerValue=readScalerValue.Data
             });

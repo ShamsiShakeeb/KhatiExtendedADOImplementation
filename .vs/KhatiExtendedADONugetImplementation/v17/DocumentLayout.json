@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProductionLibrary\\KhatiExtendedAdoImplementation\\KhatiExtendedADOImplementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{211FA361-25F1-4767-ABA4-2479D2C969D9}|KhatiExtendedADONugetImplementation\\KhatiExtendedADONugetImplementation.csproj|c:\\myproductionlibrary\\khatiextendedadoimplementation\\khatiextendedadoimplementation\\khatiextendedadonugetimplementation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211FA361-25F1-4767-ABA4-2479D2C969D9}|KhatiExtendedADONugetImplementation\\KhatiExtendedADONugetImplementation.csproj|solutionrelative:khatiextendedadonugetimplementation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211FA361-25F1-4767-ABA4-2479D2C969D9}|KhatiExtendedADONugetImplementation\\KhatiExtendedADONugetImplementation.csproj|c:\\myproductionlibrary\\khatiextendedadoimplementation\\khatiextendedadoimplementation\\khatiextendedadonugetimplementation\\adocontext\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211FA361-25F1-4767-ABA4-2479D2C969D9}|KhatiExtendedADONugetImplementation\\KhatiExtendedADONugetImplementation.csproj|solutionrelative:khatiextendedadonugetimplementation\\adocontext\\personcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonContext.cs",
+              "DocumentMoniker": "C:\\MyProductionLibrary\\KhatiExtendedAdoImplementation\\KhatiExtendedADOImplementation\\KhatiExtendedADONugetImplementation\\ADOContext\\PersonContext.cs",
+              "RelativeDocumentMoniker": "KhatiExtendedADONugetImplementation\\ADOContext\\PersonContext.cs",
+              "ToolTip": "C:\\MyProductionLibrary\\KhatiExtendedAdoImplementation\\KhatiExtendedADOImplementation\\KhatiExtendedADONugetImplementation\\ADOContext\\PersonContext.cs",
+              "RelativeToolTip": "KhatiExtendedADONugetImplementation\\ADOContext\\PersonContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:08:04.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MyProductionLibrary\\KhatiExtendedAdoImplementation\\KhatiExtendedADOImplementation\\KhatiExtendedADONugetImplementation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KhatiExtendedADONugetImplementation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MyProductionLibrary\\KhatiExtendedAdoImplementation\\KhatiExtendedADOImplementation\\KhatiExtendedADONugetImplementation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KhatiExtendedADONugetImplementation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T06:06:41.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-﻿using KhatiExtendedADO;
+﻿
+using KhatiExtendedADO;
 
 namespace KhatiExtendedADONugetImplementation.ADOContext
 {
@@ -11,7 +12,7 @@ namespace KhatiExtendedADONugetImplementation.ADOContext
         }
         public override string ConnectionString()
         {
-            return _configuration.GetConnectionString("DevConnection"); 
+            return _configuration.GetConnectionString("DevConnection")??""; 
         }
     }
 }
